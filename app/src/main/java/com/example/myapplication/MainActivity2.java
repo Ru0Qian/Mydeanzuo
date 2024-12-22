@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Button;
@@ -30,6 +31,8 @@ public class MainActivity2 extends AppCompatActivity {
                 boolean isRegistered = dbHelper.insertData(username, password); // 插入数据
                 if (isRegistered) {
                     Toast.makeText(MainActivity2.this, "注册成功", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+                    startActivity(intent);
                 } else {
                     Toast.makeText(MainActivity2.this, "用户名已存在", Toast.LENGTH_SHORT).show();
                 }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp">
+    <EditText
+            android:id="@+id/Text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="学号"
+            android:inputType="text"
+            android:padding="16dp" />
+    <EditText
+            android:id="@+id/Text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="姓名"
+            android:inputType="text"
+            android:padding="16dp" />
+    <EditText
+            android:id="@+id/Text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="总成绩"
+            android:inputType="text"
+            android:padding="16dp" />
+
+    <Button
+            android:text="添加学生"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button8"/>
+    <EditText
+            android:id="@+id/Text11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="学号"
+            android:inputType="text"
+            android:padding="16dp" />
+    <Button
+            android:text="删除学生"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button9"/>
+</LinearLayout>
